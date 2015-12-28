@@ -1,0 +1,32 @@
+{
+  "name": "react-graphs",
+  "version": "0.1.0",
+  "description": "React charting tools",
+  "keywords": [
+  ],
+  "main": "./lib",
+  "author": "John Earle",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel ./src --out-dir ./lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erlswtshrt/react-graphs"
+  },
+  "bugs": {
+    "url": "https://github.com/erlswtshrt/react-graphs/issues"
+  },
+  "browserify": {
+    "transform": ["babelify"]
+  },
+  "peerDependencies": {
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  },
+  "devDependencies": {
+    "babel": "^5.6.23",
+    "browserify": "^12.0.1"
+  }
+}
